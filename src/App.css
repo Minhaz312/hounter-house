@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600&display=swap');
+*{
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+  scrollbar-width: thin; /* 'auto' or 'thin' can be used */
+  scrollbar-color: #10B981 #f0f0f0;
+  scrollbar-color: #10B981 #f0f0f0;
+  
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #10B981;
+border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #059968;
+}
+.hero_bg_gradient {
+    /* global 94%+ browsers support */
+    background: linear-gradient(134deg, rgba(101, 184, 190, 0.65) 0%, rgba(174, 255, 226, 0.78) 14%, rgba(255, 255, 255, 1) 33%);
+}
+.dream_text {
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: black;
+}
+.bottom_border {
+    position: relative;
+}
+
+.bottom_border::before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 40px;
+    margin: 10px auto;
+    background-color: #F59E0B;
+}
+
+.slick-dots .slick-active button {
+    background-color: #059968 !important;
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50%;
+}
+.slick-dots li button {
+    position: relative;
+    background: radial-gradient(circle at 50% 50%, rgba(1, 76, 51, 1) 0%, rgba(5, 153, 104, 0.41) 50%) !important;
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50%;
+}
+.slick-dots li button::before {
+    content: "" !important;
+}
