@@ -12,7 +12,7 @@ export default function Footer() {
       <div className='py-10 grid gap-y-8 grid-cols-12 w-full px-2 md:gap-y-0 xl:w-9/12 md:w-11/12 md:mx-auto'>
           <div className='md:col-span-5 sm:col-span-6 col-span-12 flex justify-end md:justify-start md:pr-5'>
             <div>
-              <img src='/logo.svg' className='h-[40px]' />
+              <img src='/house-rent-logo-black.svg' className='h-[40px]' />
               <p className='text-[#626687] my-5 w-5/6'>We provide information about properties such as houses, villas and apartments to help people find their dream home</p>
               <div className='flex gap-3'>
                 <Link to="https://www.facebook.com"><FaFacebookF /></Link>

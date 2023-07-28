@@ -96,7 +96,7 @@ export default function Hero() {
       {Boolean(useMatch("/"))===true?<header>
               <Navbar />
           </header>:""}
-        <div className='w-full px-2 grid grid-cols-1 lg:grid-cols-2 xl:w-9/12 md:w-11/12 md:mx-auto md:mt-10 mt-3'>
+        <div className='w-full px-2 grid grid-cols-1 lg:grid-cols-2 xl:w-9/12 md:w-11/12 md:mx-auto md:mt-10 mt-8'>
           <div className=''>
           <h1 className='text-4xl font-bold capitalize text-center sm:text-5xl lg:text-left'>find the place to live <span className='dream_text'>your dreams</span> easily here</h1>
           <p className='md:text-md text-sm md:my-8 my-4 lg:mx-1 md:mx-10 mx-4 text-slate-500 text-center lg:text-left'>Everything you need about finding your place to live will be here, where it will be easier for you</p>
