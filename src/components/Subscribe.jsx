@@ -6,7 +6,7 @@ export default function Subscribe() {
     <section className='relative h-[200px] md:h-[400px]'>
         <img src="/images/subscribe-bg.png" className='w-full h-full absolute -z-10 top-0 left-0 right-0 object-cover' />
         <div className='w-full px-2 md:w-auto absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-[2] md:px-0'>
-            <div className='w-full md:w-10/12 mx-auto flex flex-col items-center gap-y-8'>
+            <div className='w-full md:w-10/12 sm:w-11/12 mx-auto flex flex-col items-center gap-y-8'>
                 <h1 className='text-2xl md:text-4xl text-center text-[#1B1C57]'>Subscribe For More Info and update from Hounter</h1>
                 <div className='bg-white max-w-[600px] lg:w-full border border-slate-300 rounded-full flex mx-auto p-1 lg:mx-0'>
                     <button className='font-semibold rounded-full ms-1'><HiMail className='text-[20px] md:text-[30px]' color='#3B82F6' /></button>

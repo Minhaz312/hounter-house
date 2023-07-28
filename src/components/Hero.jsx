@@ -17,32 +17,7 @@ export default function Hero() {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
-    cssEase: "linear",
-    responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            initialSlide: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        }
-      ]
+    cssEase: "linear"
   };
   const summarySliderSettings = {
     dots: false,
@@ -127,7 +102,7 @@ export default function Hero() {
           <p className='md:text-md text-sm md:my-8 my-4 lg:mx-1 md:mx-10 mx-4 text-slate-500 text-center lg:text-left'>Everything you need about finding your place to live will be here, where it will be easier for you</p>
           <div className='max-w-[400px] lg:w-11/12 border border-slate-300 rounded-full flex p-1 mx-auto lg:mx-0'>
             <button className='font-semibold rounded-full'><MdLocationOn size={30} color='#F59E0B' /></button>
-            <input type='text' placeholder='Search for the location you want!' className='w-full py-2' />
+            <input type='text' placeholder='Search for the location you want!' className='w-full py-2 outline-none border-0 focus:outline-none focus:border-0' />
             <button className='bg-[#10B981] text-white font-semibold flex items-center px-3 py-2 rounded-full'>search<MdKeyboardArrowRight className='ml-1' /></button>
           </div>
           <div>

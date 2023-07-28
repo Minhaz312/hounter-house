@@ -23,15 +23,15 @@ export default function Contact() {
                         </div>
                         <div className='text-[#626687] flex items-center gap-x-2 text-md mb-2'>
                             <MdBathroom />
-                            <p>2 Delux Bed</p>
+                            <p>1 Bathroom</p>
                         </div>
                         <div className='text-[#626687] flex items-center gap-x-2 text-md mb-2'>
                             <RiParkingBoxFill />
-                            <p>2 Delux Bed</p>
+                            <p>Free parking</p>
                         </div>
                         <div className='text-[#626687] flex items-center gap-x-2 text-md mb-2'>
                             <HiWifi />
-                            <p>2 Delux Bed</p>
+                            <p>Free Wifi</p>
                         </div>
                     </div>
                     <div className='flex md:gap-x-14 gap-x-6 items-center border-t mt-3 pt-3'>

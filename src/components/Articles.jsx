@@ -12,7 +12,7 @@ export default function Articles() {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5  w-full xl:w-9/12 md:w-11/12 md:mx-auto'>
             <div>
                 {
-                    [1,2,3].map((item,i)=><div className='flex mb-3 cursor-pointer hover:bg-white p-3 hover:shadow-lg transition-[0.33s]'>
+                    [1,2,3].map((item,i)=><div key={i} className='flex mb-3 cursor-pointer hover:bg-white p-3 hover:shadow-lg transition-[0.33s]'>
                         <img src="/images/house1.png" className='h-[100px] w-[150px] rounded-md mr-3' />
                         <div>
                         <div className='flex items-start gap-x-3'>

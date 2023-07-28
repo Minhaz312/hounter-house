@@ -56,8 +56,8 @@ const settings = {
   return (
     <section className='w-full px-2 my-10 xl:w-9/12 md:w-11/12 md:mx-auto'>
         <div className='flex justify-between'>
-            <h1 className='text-2xl font-semibold text-slate-900'>Featured House</h1>
-            <div className='flex gap-x-2'>
+            <h1 className='mt-10 md:mt-0 text-2xl font-semibold text-slate-900'>Featured House</h1>
+            <div className='hidden md:flex gap-x-2'>
                 <button className='bg-[#10B981] text-white font-semibold flex items-center px-3 py-2 rounded-full' onClick={handleGoPrevious}><IoIosArrowBack /></button>
                 <button className='bg-[#10B981] text-white font-semibold flex items-center px-3 py-2 rounded-full' onClick={handleGoNext}><IoIosArrowForward /></button>
             </div>
@@ -65,11 +65,17 @@ const settings = {
         <div>
             <Slider {...settings} ref={sliderRef}>
                 {
-                    houseList.map((item,i)=><div key={i} className='pr-8 py-8'>
+                    houseList.map((item,i)=><div key={i} className='pr-0 pr-2 md:pr-8 py-8'>
                         <HouseCard house={item} />
                     </div>)
                 }
             </Slider>
+            <div className='flex justify-center my-3 md:hidden'>
+                <div className='flex gap-x-2'>
+                    <button className='bg-[#10B981] text-white font-semibold flex items-center px-3 py-2 rounded-full' onClick={handleGoPrevious}><IoIosArrowBack /></button>
+                    <button className='bg-[#10B981] text-white font-semibold flex items-center px-3 py-2 rounded-full' onClick={handleGoNext}><IoIosArrowForward /></button>
+                </div>
+            </div>
         </div>
     </section>
   )
